@@ -22,7 +22,7 @@ def banner():
   |____| \___  >____/\___  >___  /|__|  (____  /__|_|  / /_______  /\___  >__|  (____  /   __/|   __/ \___  >__|   
              \/          \/_____/            \/      \/          \/     \/           \/|__|   |__|        \/    
      
-     Recoded By Da₹edevilkinng
+     Recoded By Stesh_Dev
      
      please do not change the descriptipn of code changing it won't make you a coder. 
      Respect coders. Thank you.
