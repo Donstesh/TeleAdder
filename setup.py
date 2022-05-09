@@ -77,7 +77,7 @@ def merge_csv():
 def update_tool():
 	import requests as r
 	banner()
-	source = r.get("https://github.com/daredevilkinng/TeleAdder.git")
+	source = r.get("https://github.com/Donstesh/TeleAdder.git")
 	if source.text == '3':
 		print(gr+'['+cy+'+'+gr+']'+cy+' alredy latest version')
 	else:
@@ -85,10 +85,10 @@ def update_tool():
 		os.system('rm *.py');time.sleep(1)
 		print(gr+'['+cy+'+'+gr+']'+cy+' getting latest files ...')
 		os.system("""
-			curl -s -O https://github.com/daredevilkinng/TeleAdder/blob/master/groupadd.py
-			curl -s -O https://github.com/daredevilkinng/TeleAdder/blob/master/scraper.py
-			curl -s -O https://github.com/daredevilkinng/TeleAdder/blob/master/setup.py
-			curl -s -O https://github.com/daredevilkinng/TeleAdder/blob/master/smsbot.py
+			curl -s -O https://github.com/Donstesh/TeleAdder/blob/master/groupadd.py
+			curl -s -O https://github.com/Donstesh/TeleAdder/blob/master/scraper.py
+			curl -s -O https://github.com/Donstesh/TeleAdder/blob/master/setup.py
+			curl -s -O https://github.com/Donstesh/TeleAdder/blob/master/smsbot.py
 			chmod 777 *.py
 			""");time.sleep(1)
 		print(gr+'\n['+cy+'+'+gr+']'+cy+' update compled.\n')
